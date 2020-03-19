@@ -1,1 +1,16 @@
 // Mixins in here
+
+.button(@fontsize, @color, @padding) {
+    font-size: @fontsize;
+    background-color: #008080;
+    color: @color;
+    border-radius: 12px;
+    padding: @padding;
+}
+
+.flex(@justify, @align, @flow) {
+    display:flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-flow: @flow;
+}
