@@ -296,8 +296,13 @@ img {
   padding-left: 0;
 }
 .home .content-destination {
-  width: 85%;
-  margin: 0 auto 30px;
+  width: 75%;
+  margin: 4% auto;
+}
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 85%;
+  }
 }
 .home .content-destination img {
   border-radius: 10px;
@@ -340,7 +345,8 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick .btn {
-    border-radius: 20px;
+    border-radius: 16px;
     background-color: #17A2B8;
+    padding: 4% 5%;
   }
 }
